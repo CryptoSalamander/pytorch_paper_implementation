@@ -7,4 +7,5 @@
 
 * ResNet(Deep Residual Learning for Image Recognition), CVPR 2016
 	* Link : https://arxiv.org/abs/1512.03385
-
+* VGG(Very Deep Convolutional Networks for Large-Scale Image Recognition)
+	* Link : https://arxiv.org/abs/1409.1556
