@@ -6,7 +6,6 @@ import math
 class VGG(nn.Module):
     def __init__(self, config, num_classes=1000, cifar=False):
         super(VGG, self).__init__()
-        print(config)
         self.features = make_layer(config)
         
         # ImageNet
@@ -57,14 +56,14 @@ def make_layer(config):
             in_planes = value
     return nn.Sequential(*layers)
 
-def VGG11():
-    return VGG(config=cfg['A'],cifar=cifar)
+def VGG11(cifar=False):
+    return VGG(config = cfg['A'], cifar = cifar)
 
 def VGG13(cifar=False):
-    return VGG(cfg['B'], cifar)
+    return VGG(config = cfg['B'], cifar = cifar)
 
 def VGG16(cifar=False):
-    return VGG(config=cfg['D'], cifar=cifar)
+    return VGG(config = cfg['D'], cifar = cifar)
 
 def VGG19(cifar=False):
-    return VGG(cfg['E'], cifar)
+    return VGG(config = cfg['E'], cifar = cifar)
