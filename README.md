@@ -10,3 +10,5 @@
 	* Link : https://arxiv.org/abs/1512.03385
 * ResNeXt(Aggregated Residual Transformations for Deep Neural Networks), CVPR 2017
 	* Link : https://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf
+* Bag of Tricks for Image Classification with Convolutional Neural Networks
+	* Link : https://arxiv.org/abs/1812.01187
